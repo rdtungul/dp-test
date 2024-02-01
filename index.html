@@ -1,14 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <link rel="shortcut icon" href="icon.svg" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind Starter Simple</title>
+    <title>Tailwind CSS (Test)</title>
     <!-- external css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <h1 class="text-3xl">Tailwind Starter Simple</h1>
+  <body class="font-san">
+    <div class="container w-1/2 p-2 px-2 py-20 mx-auto md:px-0">
+      <p class="mb-10 text-lg font-bold text-black md:text-3xl">
+        Select Distribution
+      </p>
+
+      <!-- Basic -->
+      <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 md:grid-rows-1">
+        <div
+          class="h-auto p-10 transition-all bg-white group backdrop-blur-lg rounded-xl md:col-span-1 outline-red-400 outline outline-2"
+        >
+          <img class="w-12" src="./images/airplane.svg" alt="" />
+          <h2
+            class="mt-5 text-2xl font-medium text-red-700 md:text-2xl opacity-90"
+          >
+            Basic
+          </h2>
+          <p class="z-10 flex mb-5 text-sm">
+            Published to 100+ news sites&nbsp;
+            <img class="h-1/2" src="./images/up arrow.svg" alt="" />
+          </p>
+          <span class="flex items-center font-bold"
+            ><h3 class="text-3xl md:text-4xl opacity-90">$74.99&nbsp;</h3>
+            <p class="">
+              Per lease&nbsp; <span class="!font-normal">&#9432;</span>
+            </p>
+          </span>
+
+          <!-- check images/icons -->
+          <div class="mt-5 check">
+            <p class="z-10 flex items-center mb-4 text-sm">
+              <img class="h-1/2" src="./images/check.svg" alt="" />&nbsp;
+              Published on digital journal
+            </p>
+            <p class="z-10 flex items-center mb-4 text-sm">
+              <img class="h-1/2" src="./images/check.svg" alt="" />&nbsp; Sent
+              to google news
+            </p>
+            <p class="z-10 flex items-center mb-4 text-sm">
+              <img class="h-1/2" src="./images/check.svg" alt="" />&nbsp; And
+              many more
+            </p>
+          </div>
+        </div>
+
+        <!-- US National -->
+        <div
+          class="h-auto p-10 bg-white group backdrop-blur-lg rounded-xl md:col-span-1 image-hover-effects outline outline-2 outline-gray-100/60"
+        >
+          <img class="w-12" src="./images/rocket.svg" alt="" />
+          <h2
+            class="mt-5 text-2xl font-medium text-red-700 md:text-2xl opacity-90"
+          >
+            US National
+          </h2>
+          <p class="z-10 flex mb-5 text-sm">
+            Published to 100+ news sites&nbsp;
+            <img class="h-1/2" src="./images/up arrow.svg" alt="" />
+          </p>
+          <span class="flex items-center font-bold"
+            ><h3 class="text-3xl md:text-4xl opacity-90">$74.99&nbsp;</h3>
+            <p class="">
+              Per lease&nbsp; <span class="!font-normal">&#9432;</span>
+            </p>
+          </span>
+
+          <!-- check images/icons -->
+          <div class="mt-5 check">
+            <p class="z-10 flex items-center mb-4 text-sm">
+              <img class="h-1/2" src="./images/check.svg" alt="" />&nbsp;
+              Published on digital journal
+            </p>
+            <p class="z-10 flex items-center mb-4 text-sm">
+              <img class="h-1/2" src="./images/check.svg" alt="" />&nbsp;
+              Published on PRnewswire.com
+            </p>
+            <p class="z-10 flex items-center mb-4 text-sm">
+              <img class="h-1/2" src="./images/check.svg" alt="" />&nbsp;
+              Published on Yahoo finance
+            </p>
+            <p class="z-10 flex items-center mb-4 text-sm">
+              <img class="h-1/2" src="./images/check.svg" alt="" />&nbsp; Sent
+              to market watch
+            </p>
+            <p class="z-10 flex items-center mb-4 text-sm">
+              <img class="h-1/2" src="./images/check.svg" alt="" />&nbsp; Sent
+              to google news
+            </p>
+            <p class="z-10 flex items-center text-sm">
+              <img class="h-1/2" src="./images/check.svg" alt="" />&nbsp; And
+              many more
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
